@@ -1,6 +1,6 @@
-package com.luv2code.springboot.Thymeleafdemo.service;
+package com.syedspring.springboot.Thymeleafdemo.service;
 
-import com.luv2code.springboot.Thymeleafdemo.entity.Employee;
+import com.syedspring.springboot.Thymeleafdemo.entity.Employee;
 
 import java.util.List;
 

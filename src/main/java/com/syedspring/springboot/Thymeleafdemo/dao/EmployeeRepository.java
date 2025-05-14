@@ -1,6 +1,6 @@
-package com.luv2code.springboot.Thymeleafdemo.dao;
+package com.syedspring.springboot.Thymeleafdemo.dao;
 
-import com.luv2code.springboot.Thymeleafdemo.entity.Employee;
+import com.syedspring.springboot.Thymeleafdemo.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
