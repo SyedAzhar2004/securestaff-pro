@@ -73,3 +73,34 @@ This application supports **role-based access control (RBAC)** with four types o
     - Add, update, and delete users and roles.
     - Full access to all CRUD operations on employee data.
 
+---
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgements
+
+- **Spring Boot** for building the backend.
+- **Thymeleaf** for server-side rendering of templates.
+- **H2 Database** for in-memory storage.
+- **Spring Security** for authentication and authorization.
+
+---
+
+## Contact
+
+For more information, feel free to reach out to:
+- **Name**: Syed Azhar
+- **Email**: syedpersonal23@gmail.com
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/syedazhar001/)
+
+---
+
+## Contributing
+
+We welcome contributions! Please fork this repository, make your changes, and submit a pull request.
+
+Made By Syed Azhar
