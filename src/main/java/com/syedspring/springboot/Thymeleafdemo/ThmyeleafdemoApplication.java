@@ -1,4 +1,4 @@
-package com.luv2code.springboot.Thymeleafdemo;
+package com.syedspring.springboot.Thymeleafdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
