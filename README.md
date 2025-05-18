@@ -1,6 +1,6 @@
 # SecureStaff - Spring Boot MVC CRUD Application
 
-This is a Spring Boot application for managing employees. It supports **Employee**, **Manager**, and **Admin** roles, with role-based access control (RBAC). You can run it with an in-memory **H2** database for simplicity or configure it to use your local **MySQL** database for real-world scenarios.
+This is a Spring Boot application for managing employees. It supports **Employee**, **Manager**, and **Admin** roles, with role-based access control (RBAC) ), **Pagination**, and **Sorting** support. You can run it with an in-memory **H2** database for simplicity or configure it to use your local **MySQL** database for real-world scenarios.
 
 ## 🛠️ **Technologies Used**
 - Spring Boot
@@ -75,11 +75,29 @@ This application supports **role-based access control (RBAC)** with four types o
 
 ---
 
+## 📄 Pagination & Sorting
+
+This application supports **pagination and sorting** of employee records using Spring Data JPA.
+
+- **Pagination** helps divide large sets of employee records into manageable pages.
+- **Sorting** allows users to sort employees by specific fields like name, department, etc.
+
+### 🔍 How It Works
+
+You can pass pagination and sorting parameters directly in the URL or use the integrated UI to view sorted and paginated data.
+
+#### 🧪 Example API Request
+GET /employees?page=0&size=5&sort=lastName,asc
+
+
+
+
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
+
 
 ## Acknowledgements
 
